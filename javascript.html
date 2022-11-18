@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="javascript.css">
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            Xclusive Cutz
+        </header>
+        
+        <nav>
+            <div class="contents">
+                <div class="nav-links" id="navLinks">
+                    <iconify-icon  class="btn-3" icon="uis:times-circle" style="color: #332;" width="36" height="36" onclick="hideMenu()"></iconify-icon>
+                    <ul>
+                        <li><a href="#"><h3>services</h3></a></li>
+                        <li><a href="#"><h3>team</h3></a></li>
+                        <li><a href="#"><h3>about</h3></a></li>
+                        <li><a href="#"><h3>contact</h3></a></li>
+                    </ul>
+
+                    
+                </div>    
+
+                <div class="barbers">
+                    <h3> BARBERS <br> <small> LAGOS</small></h3>
+                </div>
+
+                <div class="book">
+                <h3> book@barbers.com </h3> <br> <small> +2348039282266</small>
+                </div>
+             </div>
+             <iconify-icon  class="btn-2" icon="fa6-solid:bars" style="color: #b3935e;" width="36" height="36" onclick="showMenu()"></iconify-icon>
+        </nav>
+
+        <main>
+            <h2>/01</h2> 
+            <h1>barbering <br> is what <br> we do </h1>    
+        </main>
+        <div class="buttons">
+             <iconify-icon  class="btn-x" icon="ic:round-arrow-circle-down" style="color: #fff;"" width="42" height="42"></iconify-icon>
+
+             <button class="btn-i">  book <iconify-icon  class="btn-y" icon="system-uicons:arrow-top-right" style="color: #333;" width="18" height="15"></iconify-icon> </button>
+
+             <button class="btn-ii" > services<iconify-icon  class="btn-z" icon="system-uicons:arrow-top-right" style="color: #fff;" width="18" height="15"></iconify-icon></button>
+        </div>
+
+        
+        <div class="card">
+            <div class="rvw">    
+                <h2> reviews</h2> <iconify-icon  class="btn-a" icon="system-uicons:arrow-top-right" style="color: #333;" width="18" height="15"></iconify-icon>
+            </div>
+        
+            <div class="cstmr"> 
+                
+                <img src="./images/cstmr rvw.jpeg" width="100px" height="100px"> <span> uy scuti </span>
+            
+            </div>
+
+            <div>
+                <p>Lorem ipsum, dolor sit amet consectetur  <br> adipisicing elit. Corporis rerum dolorem dignissimos <br> ea aut minima ex unde architecto.</p>
+            </div>
+
+            <div class="buttons">
+                <button class="btn-iii"> STUDY <iconify-icon  class="btn-y" icon="system-uicons:arrow-top-right" style="color: #333;" width="18" height="15"></iconify-icon> </button>
+            </div>
+        
+        </div>
+
+    </div>    
+
+
+
+
+    
+    <div class="card-2">
+        <div class="rvw">    
+            <h2> reviews</h2> <iconify-icon  class="btn-a" icon="system-uicons:arrow-top-right" style="color: #333;" width="18" height="15"></iconify-icon>
+        </div>
+    
+        <div class="cstmr"> 
+            
+            <img src="./images/cstmr rvw.jpeg" width="100px" height="100px"> <span> uy scuti </span>
+        
+        </div>
+
+        <div>
+            <p>Lorem ipsum, dolor sit amet consectetur  <br> adipisicing elit. Corporis rerum dolorem dignissimos <br> ea aut minima ex unde architecto.</p>
+        </div>
+
+        <div class="buttona">
+            <button class="btn-iiv"> STUDY <iconify-icon  class="btn-y" icon="system-uicons:arrow-top-right" style="color: #333;" width="18" height="15"></iconify-icon> </button>
+        </div>
+    
+    </div>
+
+                  <!---------------- javascript----------------- -->
+
+<script >
+    const navLinks = document.getElementById("navLinks")
+    
+    function showMenu(){
+        navLinks.style.left = "0"
+    }
+    function hideMenu(){
+        navLinks.style.left = "-200px"
+    }
+</script>
+        
+</body>
+</html>
